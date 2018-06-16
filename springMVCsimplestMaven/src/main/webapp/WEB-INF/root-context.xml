@@ -16,9 +16,12 @@
 	<context:annotation-config />
 
 	<!-- https://docs.spring.io/spring/docs/3.0.0.M4/reference/html/ch03s10.html -->
-	<context:component-scan base-package="hello" />
+	<context:component-scan base-package="com.quynguyenblog.springtest.controller" />
 
-	<!-- http://forum.spring.io/forum/spring-projects/web/82812-no-mapping-found-for-http-request-with-uri-in-spring-mvc-3 -->
+	<!-- http://forum.spring.io/forum/spring-projects/web/82812-no-mapping-found-for-http-request-with-uri-in-spring-mvc-3 
+		https://coderanch.com/t/565308/frameworks/Error-Context-xml-file-cvc This 
+		is responsible for automatically converting our custom POJO to JSON. Make 
+		sure you have Jackson in your classpath -->
 	<mvc:annotation-driven />
 
 </beans>	

@@ -135,6 +135,16 @@
 		</dependency>
 
 
+<!-- https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-core
+
+https://coderanch.com/t/565308/frameworks/Error-Context-xml-file-cvc
+This is responsible for automatically converting our custom POJO to JSON. 
+Make sure you have Jackson in your classpath  -->
+<dependency>
+    <groupId>com.fasterxml.jackson.core</groupId>
+    <artifactId>jackson-core</artifactId>
+    <version>2.9.5</version>
+</dependency>
 
 
 
