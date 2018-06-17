@@ -11,4 +11,14 @@ public class HomeController {
 	public String home() {
 		return "home";
 	}
+	
+	@RequestMapping(value = "/uli2", method = RequestMethod.GET)
+	public String home2() {
+		return "home2";
+	}
+	
+	@RequestMapping(value = "/springMVCsimplestMaven/", method = RequestMethod.GET)
+	public String home3() {
+		return "home3";
+	}
 }
