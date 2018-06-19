@@ -1,4 +1,4 @@
-package com.quynguyenblog.springtest.controller.inuits;
+package com.quynguyenblog.springtest.controllerinuits;
 
 import org.apache.logging.log4j.LogManager;
 

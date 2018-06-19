@@ -1,4 +1,4 @@
-package com.quynguyenblog.springtest.controller;
+package com.quynguyenblog.springtest.controllerhome;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
