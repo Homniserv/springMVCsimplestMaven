@@ -17,7 +17,7 @@
 
 	<!-- https://docs.spring.io/spring/docs/3.0.0.M4/reference/html/ch03s10.html -->
 	<context:component-scan
-		base-package="com.quynguyenblog.springtest.controller" />
+		base-package="com.quynguyenblog.springtest.controller.inuits" />
 
 	<!-- http://forum.spring.io/forum/spring-projects/web/82812-no-mapping-found-for-http-request-with-uri-in-spring-mvc-3 
 		https://coderanch.com/t/565308/frameworks/Error-Context-xml-file-cvc This 
@@ -42,7 +42,7 @@
 	<bean
 		class="org.springframework.web.servlet.view.InternalResourceViewResolver">
 
-		<property name="prefix" value="/WEB-INF/views/" />
+		<property name="prefix" value="/WEB-INF/inuits/" />
 
 		<property name="suffix" value=".jsp" />
 
